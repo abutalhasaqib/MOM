@@ -266,7 +266,7 @@ body {
     filter: blur(50px);
     position: absolute;
     top: 260%;
-    left: -2%;
+    left: 0%;
     z-index: -999;
     width: 40%;
 }
