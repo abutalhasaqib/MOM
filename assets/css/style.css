@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     background-size: cover;
     background: transparent linear-gradient(133deg, #930A45 0%, #740E7F 11%, #740E7F 14%, #491553 22%, #1D1D26 45%, #1D1D26 74%, #141B69 100%) 0% 0% no-repeat padding-box;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 
