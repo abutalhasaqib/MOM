@@ -1,0 +1,534 @@
+body {
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    background-size: cover;
+    background: transparent linear-gradient(133deg, #930A45 0%, #740E7F 11%, #740E7F 14%, #491553 22%, #1D1D26 45%, #1D1D26 74%, #141B69 100%) 0% 0% no-repeat padding-box;
+    /* overflow-x: hidden; */
+}
+
+
+/* Main section Open */
+
+.cus-main {
+    height: 100vh;
+    padding: 1% 0%;
+}
+
+.nav-item {
+    margin: 2% 2%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #F3F4F8;
+    transition: all;
+}
+
+.nav-link:hover {
+    color: #FF5E5B !important;
+}
+
+.cus-logo {
+    width: 20%;
+}
+
+.nav_btn {
+    padding: 12% 32%;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.btn_mom {
+    background-color: #FF5E5B;
+    color: white;
+}
+
+.btn_mom:hover {
+    background-color: white;
+    color: #FF5E5B;
+}
+
+.container {
+    max-width: 84%;
+}
+
+.cus-h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.cus-h3 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 300;
+}
+
+.cus-btn {
+    width: 100%;
+    padding: 6% 20%;
+    border-radius: 50px;
+}
+
+.cus-btn-light {
+    width: 100%;
+    padding: 6% 20%;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.cus-btn-light:hover {
+    background: #741e1e1c;
+}
+
+.cus-h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #7C7B97;
+}
+
+.main-right-img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10%;
+}
+
+.mom-color {
+    color: #FF5E5B
+}
+
+
+/* Main section Open */
+
+
+/* About us section open */
+
+.cus-about {
+    padding: 0% 0% 4% 0%;
+}
+
+.about-img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.grad-line {
+    height: 3px;
+    width: 25%;
+    background-color: red;
+    background-image: linear-gradient( to right, #C471ED, #FF5E5B);
+    margin: 2% 0% 6% 0%;
+}
+
+.about-p {
+    font-size: 16px;
+    color: #7C7B97;
+    margin: 5% 0%;
+    line-height: 28px;
+}
+
+
+/* About us section close */
+
+
+/* Communication section open */
+
+.cus-com {
+    padding: 4% 0% 4% 0%;
+}
+
+.com-p {
+    font-size: 20px;
+    color: #7C7B97;
+    line-height: 35px;
+}
+
+.com-grad-line {
+    height: 3px;
+    width: 22%;
+    background-color: red;
+    background-image: linear-gradient( to right, #C471ED, #FF5E5B);
+    margin: 3% auto 5% auto;
+}
+
+.com-p2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #7C7B97;
+    line-height: 40px;
+}
+
+.com-million {
+    border: 2px solid #353945;
+    border-radius: 12px;
+    width: 60%;
+    margin: 5% auto 0 auto
+}
+
+.com-one {
+    font-size: 86px;
+    font-weight: bold;
+    color: #353945;
+    float: left;
+    text-align: center;
+    padding: 0% 8%;
+    border-right: 2px solid #353945;
+}
+
+.com-mil-text {
+    font-size: 86px;
+    font-weight: bold;
+    color: #353945;
+    text-align: center;
+}
+
+.com-user-h {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2.2px;
+    color: #F3F4F8;
+    text-transform: uppercase;
+}
+
+.com-p3 {
+    font-size: 20px;
+    color: #7C7B97;
+    line-height: 35px;
+}
+
+
+/* Communication section close */
+
+
+/* Eco section open */
+
+.cus-eco {
+    padding: 4% 0% 4% 0%;
+}
+
+
+/* Eco section close */
+
+
+/* Community Platform open */
+
+.cus-plat {
+    padding: 4% 0% 4% 0%;
+}
+
+.plat-grad-line {
+    height: 3px;
+    width: 10%;
+    background-image: linear-gradient( to right, #C471ED, #FF5E5B);
+    margin: 1.5% auto 3% auto;
+}
+
+.plat-p1 {
+    font-size: 16px;
+    color: #7C7B97;
+    margin-bottom: 5%;
+}
+
+.plat-h3 {
+    font-size: 24px;
+    color: #F3F4F8;
+    margin: 5% 0% 4% 0%;
+    font-weight: 400;
+}
+
+.plat-p {
+    font-size: 16px;
+    color: #7C7B97;
+    line-height: 30px;
+}
+
+
+/* Community Platform close */
+
+
+/* Vector images open */
+
+.right-vector {
+    -webkit-filter: blur(50px);
+    filter: blur(50px);
+    position: absolute;
+    top: 65%;
+    right: 0%;
+    z-index: -999;
+    width: 50%;
+}
+
+.left-vector {
+    -webkit-filter: blur(50px);
+    filter: blur(50px);
+    position: absolute;
+    top: 260%;
+    left: -2%;
+    z-index: -999;
+    width: 40%;
+}
+
+.left-circle-vector {
+    -webkit-filter: blur(112px);
+    /* Safari 6.0 - 9.0 */
+    filter: blur(112px);
+    position: absolute;
+    top: 150%;
+    left: 0%;
+    z-index: -999;
+}
+
+.right-circle-vector {
+    -webkit-filter: blur(112px);
+    /* Safari 6.0 - 9.0 */
+    filter: blur(112px);
+    position: absolute;
+    top: 400%;
+    right: 0%;
+    z-index: -999;
+}
+
+
+/* Vector images close */
+
+
+/* Token utility open */
+
+.cus-util {
+    padding: 4% 0%;
+}
+
+.token-grad-line {
+    height: 3px;
+    width: 10%;
+    background-image: linear-gradient( to right, #C471ED, #FF5E5B);
+    margin: 1% auto 0 auto;
+}
+
+.token-p1 {
+    font-size: 16px;
+    color: #7C7B97;
+    margin-top: 3%;
+    line-height: 28px;
+}
+
+.utl-icon {
+    width: 50%;
+}
+
+.util-h4 {
+    font-size: 20px;
+    color: white;
+    margin: 10% 0% 8% 0%;
+    font-weight: bold;
+}
+
+.util-p2 {
+    font-size: 16px;
+    color: #7C7B97;
+    line-height: 28px;
+}
+
+.util-box {
+    padding: 0% 5%;
+}
+
+.util-box::after {
+    border-bottom: 2px dashed #7c7b973d;
+    width: 75%;
+    position: absolute;
+    content: "";
+    right: -40%;
+    top: 20%;
+    z-index: -999;
+}
+
+.util-box:last-child::after {
+    display: none;
+}
+
+
+/* Token utility close */
+
+
+/* memes slider section open */
+
+.cus-slid {
+    padding: 5% 0% 10% 0%;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-nav button.owl-prev {
+    left: 0;
+}
+
+.owl-nav button.owl-next {
+    right: 0;
+}
+
+.owl-dots {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+
+.owl-dots button.owl-dot.active {
+    background-color: #000;
+}
+
+.owl-dots button.owl-dot:focus {
+    outline: none;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+
+.owl-nav button:focus {
+    outline: none;
+}
+
+.owl-slider {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.owl-next,
+.owl-prev {
+    display: none;
+}
+
+.cus-item {
+    border: 15px solid #6a6fab47;
+    border-radius: 50px;
+}
+
+.item {
+    padding: 1% 1%;
+}
+
+.owl-dots button.owl-dot.active {
+    background: #FF5E5B;
+}
+
+.owl-dots button.owl-dot {
+    background: transparent;
+    border: 1px solid #fff;
+    width: 20px;
+    height: 20px;
+    margin-top: 2%;
+}
+
+
+/* memes slider section close */
+
+
+/* join our community open */
+
+.cus-join {
+    padding: 0% 0% 8% 0%;
+}
+
+.join-box {
+    background: #ffffff0a;
+    border-radius: 32px;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    padding: 4% 1% 5% 1%;
+}
+
+.social-box p {
+    margin-top: 1%;
+}
+
+.social-box {
+    width: 80%;
+    margin: 3% auto 0 auto;
+}
+
+.social-icon {
+    margin: 1% 4%;
+}
+
+.social-icon p {
+    margin-top: 10%;
+    color: #7C7B97;
+    font-size: 16px;
+}
+
+.social-icon a {
+    text-decoration: none;
+}
+
+.social-icon a:hover {
+    font-weight: bold;
+}
+
+
+/* join our community close */
+
+
+/* footer section open */
+
+.cus-footer {
+    padding: 0% 0% 2% 0%;
+}
+
+.footer-logo {
+    margin-bottom: 2%;
+}
+
+.footer-h5 {
+    font-size: 16px;
+    color: #E6E8EC;
+    line-height: 28px;
+}
+
+.footer-link {
+    margin-left: 7%;
+    color: #F3F4F8;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: #FF5E5B;
+}
+
+.cookies-row {
+    padding: 2% 0% 0% 0%;
+    border-top: 2px solid #777e9036;
+}
+
+.cookies-p1 {
+    font-size: 12px;
+    color: #777E90;
+}
+
+.cookies-p1 a {
+    color: #FF5E5B;
+}
+
+
+/* footer section close */
