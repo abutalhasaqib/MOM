@@ -1,0 +1,17 @@
+<svg width="650" height="600" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient y2="1" x1="1" gradientUnits="objectBoundingBox" x2="-0.028" y1="0" id="svg_6">
+   <stop stop-color="#2698ea" offset="0"/>
+   <stop stop-color="#12c2e9" offset="0"/>
+   <stop stop-color="#c471ed" offset="0.528"/>
+   <stop stop-color="#f64f59" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null">
+
+   <path stroke="null" fill="url(#svg_6)" opacity="0.2" d="m658.4177,-31.09378l-656.83543,395.37723l134.41312,232.81035l501.57322,-289.58344l20.84909,-338.60414z" id="svg_4"/>
+  </g>
+ </g>
+</svg>

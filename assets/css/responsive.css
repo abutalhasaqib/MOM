@@ -1,0 +1,146 @@
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px !important;
+    }
+    .cus-logo {
+        width: 60%;
+    }
+    .nav_btn {
+        padding: 3% 13%;
+    }
+    .container {
+        max-width: 90%;
+    }
+    .cus-h2 {
+        font-size: 30px;
+    }
+    .cus-h3 {
+        font-size: 23px;
+        line-height: 40px;
+    }
+    .cus-h4 br {
+        display: none;
+    }
+    .cus-h4 {
+        line-height: 30px;
+    }
+    .cus-btn {
+        padding: 6% 0%;
+        font-size: 13px;
+    }
+    .cus-btn-light {
+        font-size: 13px;
+        padding: 6% 0%;
+    }
+    .cus-h3>br {
+        display: none;
+    }
+    .navbar {
+        padding: 0.5rem 0rem;
+    }
+    .navbar-collapse {
+        margin-top: 5%;
+    }
+    .nav-link {
+        padding: 0.3rem 1rem;
+    }
+    .navbar-nav {
+        border-bottom: 1px solid #dbc8c81f;
+        padding-bottom: 10%;
+    }
+    .mt-5.util-box {
+        margin-top: 5% !important;
+    }
+    .cus-about {
+        padding: 20% 0% 4% 0%;
+    }
+    .social-icon p {
+        font-size: 14px;
+    }
+    .about-p {
+        font-size: 14px;
+        line-height: 26px;
+        text-align: justify;
+    }
+    .cus-com {
+        padding: 10% 0% 4% 0%;
+    }
+    .offset-2 {
+        margin-left: 0%;
+    }
+    .com-million {
+        width: 100%;
+    }
+    .com-one {
+        font-size: 55px;
+    }
+    .com-mil-text {
+        font-size: 55px;
+    }
+    .com-p3>.mt-5 {
+        margin-top: 2rem !important;
+    }
+    .com-p3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .com-p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .util-box::after {
+        border-bottom: none;
+    }
+    .token-p1 br {
+        display: none;
+    }
+    .token-grad-line {
+        margin: 5% auto 5% auto
+    }
+    .utl-icon {
+        width: 30%;
+    }
+    .util-h4 {
+        margin: 6% 0% 5% 0%;
+    }
+    .social-box {
+        margin: 10% auto 0 auto;
+        width: 100%;
+    }
+    .join-box {
+        padding: 7% 1% 5% 1%;
+    }
+    .join-box .cus-h2 {
+        font-size: 26px !important;
+    }
+    .social-icon {
+        width: 25%;
+    }
+    .social-icon img {
+        width: 70%;
+    }
+    .cus-slid {
+        padding: 7% 0% 18% 0%;
+    }
+    .cus-footer {
+        padding: 10% 0% 7% 0%;
+    }
+    .footer-h5 br {
+        display: none;
+    }
+    .col-lg-6 .text-right {
+        text-align: left !important;
+        margin-top: 4%;
+    }
+    .footer-link {
+        margin-left: 0%;
+        width: 100%;
+        float: left;
+        margin-bottom: 2%;
+        text-decoration: underline;
+    }
+    .cookies-p1 {
+        text-align: left;
+        margin: 3% 0% 0% 0%;
+    }
+}
