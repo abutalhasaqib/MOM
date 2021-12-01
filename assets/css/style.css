@@ -1,3 +1,6 @@
+html{scroll-behavior:smooth}
+
+
 body {
     color: white;
     font-family: Poppins;
@@ -130,6 +133,15 @@ body {
     color: white;
 
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
 
 .form-control{
     background-color: #34262624;
@@ -137,20 +149,22 @@ body {
     margin-bottom: 6%;
     border: none;
     border-bottom: 1px solid;
+    border-radius: 0%;
+    color: white;
 }
 
 .form-btn{
 
     width: 140px;
     background-color: #000000;
-    border: 1px solid red;
+    border: 1px solid white;
     padding: 8px 30px;
     font-family: Metropolis-Bold;
     font-size: 16px;
     color:white;
     margin-bottom: 24px;
     margin-top: 20px;
-    border-radius: 30px;
+    border-radius: 0px;
     cursor: pointer;
 }
 
@@ -165,23 +179,34 @@ body {
 }
 
 .modal-content {
-    background-color:black;
-    color: white;
-    box-shadow: 0 0 12px 3px;
- 
+    background: transparent linear-gradient(
+    178deg, #930A45 0%, #740E7F 11%, #740E7F 14%, #491553 22%, #1D1D26 45%, #1a1c3b 74%, #141B69 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 5px;
+    border-radius: 0%;
 }
+
+ 
 
 .modal-header{
     border-bottom: 0px solid #e9ecef;
 }
 
 .modal-body{
-    margin: 16px 10px 0px 14px;
-    padding: 8% 12%;
+    margin: 0px 0px 0px 5px;
+    padding: 0% 12%;
     width: 100%
 }
 .close:focus{
     outline: none;
+}
+
+.form-control:focus{
+    /* box-shadow: none; */
+    border-bottom: 1px solid white;
+
+    border-radius: 0%;
+    
+
 }
 
 
