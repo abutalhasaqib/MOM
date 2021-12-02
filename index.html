@@ -55,7 +55,7 @@
                             <a class="nav-link" href="https://t.me/momtokenglobal" target="_blank">Join as Community</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="modal" data-target="#exampleModal" href="#">Iam
+                            <a class="nav-link" data-toggle="modal" data-target="#exampleModal" href="#exampleModal">Iam
                                 Memer</a>
                         </li>
 
@@ -152,7 +152,7 @@
                     </div>
                     <div class="modal-footer">
                     <input type="submit" value="submit" name="submit" id="mc-embedded-subscribe" class="btn form-btn">
-                    <button type="button" class="btn form-btn" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn form-btn cus-new-btn" data-dismiss="modal">Cancel</button>
                     </div>
                     <div id="subscribe-result">
                     </div>
@@ -202,7 +202,7 @@
                     </div>
                     <div class="modal-footer">
                     <input type="submit" value="submit" name="submit" id="mc-embedded-subscribe" class="btn form-btn">
-                    <button type="button" class="btn form-btn" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn form-btn cus-new-btn" data-dismiss="modal">Cancel</button>
                     </div>
                     <div id="subscribe-result">
                     </div>
@@ -744,20 +744,23 @@ function register($form) {
     contentType: 'application/json; charset=utf-8',
     error: function (err) { alert('Could not connect to the registration server. Please try again later.') },
     success: function (data) {
-      $('#mc-embedded-subscribe').val('subscribe')
+      $('#mc-embedded-subscribe').val('submit')
       if (data.result === 'success') {
         // Yeahhhh Success
         console.log(data.msg)
         // $('#mce-EMAIL').css('borderColor', '#ffffff')
         // $('#subscribe-result').css('color', 'rgb(53, 114, 210)')
         $('#subscribe-result').html('<p>Thank you for subscribing. We have sent you a confirmation email.</p>')
-        $('#mce-EMAIL').val('')
+        // $('#mce-EMAIL').val('')
       } else {
         // Something went wrong, do something to notify the user.
-        console.log(data.msg)
+        const da = data.msg
+        // console.log(da.replaceAll(/<\/?[^>*]*(>|$)/g, ""))
+        // console.log(da.replaceAll("<[^>]*>", ""))
         // $('#mce-EMAIL').css('borderColor', '#ff8282')
         // $('#subscribe-result').css('color', '#ff8282')
         $('#subscribe-result').html('<p>' + data.msg.substring() + '</p>')
+        $('#exampleModal').modal('hide');
       }
     }
   })
