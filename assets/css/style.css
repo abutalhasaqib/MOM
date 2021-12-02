@@ -165,21 +165,26 @@ input[type=number] {
 .form-btn{
 
     width: 140px;
-    background-color: #000000;
+    background-color: #FF5E5B;
     border: 1px solid white;
     padding: 8px 30px;
     font-family: Metropolis-Bold;
     font-size: 16px;
-    color:white;
+    color:#FFFFFF;
     margin-bottom: 24px;
     margin-top: 20px;
-    border-radius: 0px;
+    border-radius: 25px;
     cursor: pointer;
     font-family: Poppins;
 
 }
+.cus-new-btn{
+    background-color:transparent;
+    color:#FFFFFF
+}
 .form-btn:hover{
-    background-color:orangered
+    background-color:white;
+    color:#FF5E5B
 }
 .form-group{
     border: none;   
