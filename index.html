@@ -60,7 +60,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <button class="btn nav_btn btn_mom" data-toggle="modal" data-target="#exampleModal">
+                            <button class="btn nav_btn btn_mom" data-toggle="modal" data-target="#exampleModal2">
                                 Contact us
                             </button>
                         </li>
@@ -114,7 +114,7 @@
 
 
     <!-- popup -->
-    <!-- example2 start -->
+    <!-- example1 start -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -146,39 +146,73 @@
                     
                     <label>YOUR <span class="bold">MESSAGE</span></label>
                     <textarea row="3" class="form-control" name="MERGE3"></textarea>
-                    <br>
+                    
                     <div style="position: absolute; left: -5000px;" aria-hidden="true">
                         <input type="text" name="b_a6f9a220fc1e1bef4075b4caa_da2c986af5" tabindex="-1" value="">
                     </div>
-                    <input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn form-btn">
-                    <button type="button" class="btn form-btn " data-dismiss="modal">Cancel</button>
+                    <div class="modal-footer">
+                    <input type="submit" value="submit" name="submit" id="mc-embedded-subscribe" class="btn form-btn">
+                    <button type="button" class="btn form-btn" data-dismiss="modal">Cancel</button>
+                    </div>
                     <div id="subscribe-result">
                     </div>
                 </form>
-                    <!-- <form id="mc-embedded-subscribe-form">
-                        <input type="hidden" name="u" value="a6f9a220fc1e1bef4075b4caa">
-                        <input type="hidden" name="id" value="da2c986af5">
-                        <div class="form-group">
-                            <label>YOUR <span class="bold">NAME</span></label>
-                            <input type="text" class="form-control" name="MERGE1">
-                            <label>YOUR <span class="bold">EMAIL</span></label>
-                            <input type="email" class="form-control" name="MERGE0">
-                            <label>YOUR <span class="bold">NUMBER</span></label>
-                            <input type="number" class="form-control" name="MERGE2">
-                            <label>YOUR <span class="bold">MESSAGE</span></label>
-                            <textarea row="3" class="form-control" name="MERGE3"></textarea>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <input id="form-submit" type="submit" class="btn form-btn" value="submit" />
-                        <button type="button" class="btn form-btn " data-dismiss="modal">Cancel</button>
-                    </div>
-                </form> -->
             </div>
         </div>
     </div>
 
     </div>
+    <!-- example1close -->
+
+    <!-- example2 start -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-h4">
+                        <h4 class="modal-title" id="exampleModalLabel">Iam Memer</h4>
+                    </div>
+                    <form action="https://gmail.us20.list-manage.com/subscribe/post-json?u=a6f9a220fc1e1bef4075b4caa&amp;id=da2c986af5&c=?"
+                    method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+                    
+                    <label>YOUR <span class="bold">NAME</span></label>
+                    <input type="text" value="" name="MERGE1" class="form-control" required>
+                    
+                    
+                    
+                    <input type="hidden" value="contact-us" name="MERGE4" class="form-control" required>
+                    
+                    
+                    <label>YOUR <span class="bold">EMAIL</span></label>
+                    <input type="email" value="" name="MERGE0" class="form-control" required>
+                    
+                    <label>YOUR <span class="bold">NUMBER</span></label>
+                    <input type="number" value="" name="MERGE2" class="form-control" required>
+                    
+                    <label>YOUR <span class="bold">MESSAGE</span></label>
+                    <textarea row="3" class="form-control" name="MERGE3"></textarea>
+                    
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_a6f9a220fc1e1bef4075b4caa_da2c986af5" tabindex="-1" value="">
+                    </div>
+                    <div class="modal-footer">
+                    <input type="submit" value="submit" name="submit" id="mc-embedded-subscribe" class="btn form-btn">
+                    <button type="button" class="btn form-btn" data-dismiss="modal">Cancel</button>
+                    </div>
+                    <div id="subscribe-result">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
     <!-- example2 close -->
     <!-- popupclose -->
 
@@ -612,10 +646,10 @@
                 </div>
                 <div class="col-lg-6 text-right">
                     <div class="footer-menu text-right">
-                        <a href="javascript:void(0)" class="footer-link">About us</a>
-                        <a href="javascript:void(0)" class="footer-link">NFT Platform</a>
-                        <a href="javascript:void(0)" class="footer-link">Join as Community</a>
-                        <a href="javascript:void(0)" class="footer-link">Iam Memer</a>
+                        <a href="#about-us" class="footer-link">About us</a>
+                        <a href="#nft-platform" class="footer-link">NFT Platform</a>
+                        <a href="https://t.me/momtokenglobal" class="footer-link">Join as Community</a>
+                        <a href="#exampleModal" class="footer-link">Iam Memer</a>
                     </div>
                 </div>
 
@@ -638,12 +672,12 @@
     <!-- footer secion close -->
 
     <!-- Vector Backgroun Images section open -->
-    <section>
+    <!-- <section>
         <img class="right-vector" src="assets/right-vector.svg" alt="">
         <img class="left-vector" src="assets/left-vector.svg" alt="">
         <img class="left-circle-vector" src="assets/left-circle.svg" alt="">
         <img class="right-circle-vector" src="assets/right-circle.svg" alt="">
-    </section>
+    </section> -->
     <!-- Vector Backgroun Images section close -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -689,59 +723,47 @@
                 }
             }
         });
-        //$(document).ready(function () {
-
-$(document).ready(function () {
-  // Listen to click event on the submit button
-  $('#form-submit').click(function (e) {
-
-    e.preventDefault();
-    console.log("came here")
-    var $form = $('#mc-embedded-subscribe-form')
-  //if ($form.length > 0) {
-    console.log("came to here to inside form")
+        $(document).ready(function () {
+  var $form = $('#mc-embedded-subscribe-form')
+  if ($form.length > 0) {
+    $('form input[type="submit"]').bind('click', function (event) {
+      if (event) event.preventDefault()
       register($form)
-
-   });
-});
-function submitForm(){
-    console.log("came to here")
-    var $form = $('#mc-embedded-subscribe-form')
-  //if ($form.length > 0) {
-    console.log("came to here to inside form")
-    register($form)
-}
+    })
+  }
+})
 
 function register($form) {
-    console.log($form.serialize())
   $('#mc-embedded-subscribe').val('Sending...');
   $.ajax({
-    type: "POST", //$form.attr('method'),
-    url:  "https://gmail.us20.list-manage.com/subscribe/post",                //$form.attr('action'),
+    type: $form.attr('method'),
+    url: $form.attr('action'),
     data: $form.serialize(),
     cache: false,
-    dataType: 'html',
-    contentType: 'application/x-www-form-urlencoded; charset=utf-8',
-    error: function (err) { 
-        console.log(err)
-        alert('Could not connect to the registration server. Please try again later.') },
+    dataType: 'json',
+    contentType: 'application/json; charset=utf-8',
+    error: function (err) { alert('Could not connect to the registration server. Please try again later.') },
     success: function (data) {
       $('#mc-embedded-subscribe').val('subscribe')
       if (data.result === 'success') {
-          alert("submitted successfully")
+        // Yeahhhh Success
+        console.log(data.msg)
+        // $('#mce-EMAIL').css('borderColor', '#ffffff')
+        // $('#subscribe-result').css('color', 'rgb(53, 114, 210)')
+        $('#subscribe-result').html('<p>Thank you for subscribing. We have sent you a confirmation email.</p>')
+        $('#mce-EMAIL').val('')
       } else {
-        alert("submitted successfully")
-        console.log(data)
-        $("#exampleModal").modal('hide');
-        
-
         // Something went wrong, do something to notify the user.
-        // $('#subscribe-result').html('<p>' + data.msg.substring(4) + '</p>')
+        console.log(data.msg)
+        // $('#mce-EMAIL').css('borderColor', '#ff8282')
+        // $('#subscribe-result').css('color', '#ff8282')
+        $('#subscribe-result').html('<p>' + data.msg.substring() + '</p>')
       }
     }
   })
 };
-       
+
+ 
 
     </script>
 </body>
