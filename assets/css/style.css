@@ -1,4 +1,8 @@
-html{scroll-behavior:smooth}
+html{
+    scroll-behavior:smooth;
+
+
+}
 
 
 body {
@@ -9,7 +13,10 @@ body {
     background: transparent linear-gradient(133deg, #930A45 0%, #740E7F 11%, #740E7F 14%, #491553 22%, #1D1D26 45%, #1a1c3b 74%, #141B69 100%) 0% 0% no-repeat padding-box;
     overflow-x: hidden;
 }
+/* text moving on */
 
+
+/* text moving close */
 
 /* Main section Open */
 
@@ -166,6 +173,7 @@ input[type=number] {
     margin-top: 20px;
     border-radius: 0px;
     cursor: pointer;
+    font-family: Poppins;
 }
 
 .form-group{
@@ -539,10 +547,15 @@ input[type=number] {
 .cus-item {
     border: 15px solid #6a6fab47;
     border-radius: 50px;
+    height: 100%;
+    width: 100%;
+    
 }
 
 .item {
-    padding: 1% 1%;
+    padding: 10% 10%;
+    height: 400px;
+    width: 400px;
 }
 
 .owl-dots button.owl-dot.active {
@@ -555,6 +568,19 @@ input[type=number] {
     width: 20px;
     height: 20px;
     margin-top: 2%;
+}
+.col-container {
+    display: table;
+    width: 100%;
+  }
+.col {
+    display: table-cell;
+    padding: 16px;
+  }
+
+.owl-carousel{
+    height: 100%;
+    width: 100%;
 }
 
 

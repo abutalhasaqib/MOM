@@ -18,13 +18,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-
+    <link href="https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfecg.woff2"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet">
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -52,7 +52,7 @@
                             <a class="nav-link" href="#nft-platform">NFT Platform</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#join-community">Join as Community</a>
+                            <a class="nav-link" href="https://t.me/momtokenglobal" target="_blank">Join as Community</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="modal" data-target="#exampleModal" href="#">Iam
@@ -60,7 +60,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <button class="btn nav_btn btn_mom">
+                            <button class="btn nav_btn btn_mom" data-toggle="modal" data-target="#exampleModal">
                                 Contact us
                             </button>
                         </li>
@@ -73,7 +73,13 @@
                     <div class="main-left-box" data-aos="zoom-in-right">
 
                         <div class="cus-h2 ">
-                            NFT MEME MARKETPLACE
+                            <h1 class="ml11">
+                                <span class="text-wrapper">
+                                    <span class="line line1"></span>
+                                    <span class="letters">NFT MEME MARKETPLACE</span>
+                                </span>
+                            </h1>
+
                         </div>
                         <div class="cus-h3 mt-3">
                             MOM utility token enables memers to <span class="mom-color"> build,<br></span> <span
@@ -119,26 +125,55 @@
                 </div>
                 <div class="modal-body">
                     <div class="modal-h4">
-                    <h4 class="modal-title" id="exampleModalLabel">Iam Memer</h4>
-                   </div>
-                    <form>
-                        <div class="form-group">
-                            <!-- <labe>User name</labe> -->
-                            <label>YOUR  <span class="bold">NAME</span></label>
-                            <input type="text" class="form-control">
-                            <label>YOUR  <span class="bold">EMAIL</span></label>
-                            <input type="email" class="form-control">
-                            <label>YOUR  <span class="bold">NUMBER</span></label>
-                            <input type="number" class="form-control">
-                            <label>YOUR  <span class="bold">MESSAGE</span></label>
-                            <textarea row="3" class="form-control"></textarea>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn form-btn">Submit</button>
+                        <h4 class="modal-title" id="exampleModalLabel">Iam Memer</h4>
+                    </div>
+                    <form action="https://gmail.us20.list-manage.com/subscribe/post-json?u=a6f9a220fc1e1bef4075b4caa&amp;id=da2c986af5&c=?"
+                    method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+                    
+                    <label>YOUR <span class="bold">NAME</span></label>
+                    <input type="text" value="" name="MERGE1" class="form-control" required>
+                    
+                    
+                    
+                    <input type="hidden" value="iam memer" name="MERGE4" class="form-control" required>
+                    
+                    
+                    <label>YOUR <span class="bold">EMAIL</span></label>
+                    <input type="email" value="" name="MERGE0" class="form-control" required>
+                    
+                    <label>YOUR <span class="bold">NUMBER</span></label>
+                    <input type="number" value="" name="MERGE2" class="form-control" required>
+                    
+                    <label>YOUR <span class="bold">MESSAGE</span></label>
+                    <textarea row="3" class="form-control" name="MERGE3"></textarea>
+                    <br>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_a6f9a220fc1e1bef4075b4caa_da2c986af5" tabindex="-1" value="">
+                    </div>
+                    <input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn form-btn">
                     <button type="button" class="btn form-btn " data-dismiss="modal">Cancel</button>
-                </div>
+                    <div id="subscribe-result">
+                    </div>
+                </form>
+                    <!-- <form id="mc-embedded-subscribe-form">
+                        <input type="hidden" name="u" value="a6f9a220fc1e1bef4075b4caa">
+                        <input type="hidden" name="id" value="da2c986af5">
+                        <div class="form-group">
+                            <label>YOUR <span class="bold">NAME</span></label>
+                            <input type="text" class="form-control" name="MERGE1">
+                            <label>YOUR <span class="bold">EMAIL</span></label>
+                            <input type="email" class="form-control" name="MERGE0">
+                            <label>YOUR <span class="bold">NUMBER</span></label>
+                            <input type="number" class="form-control" name="MERGE2">
+                            <label>YOUR <span class="bold">MESSAGE</span></label>
+                            <textarea row="3" class="form-control" name="MERGE3"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input id="form-submit" type="submit" class="btn form-btn" value="submit" />
+                        <button type="button" class="btn form-btn " data-dismiss="modal">Cancel</button>
+                    </div>
+                </form> -->
             </div>
         </div>
     </div>
@@ -401,35 +436,95 @@
                     </div>
                     <div class="owl-slider">
                         <div id="carousel" class="owl-carousel">
-                            <div class="item ">
-                                <img src="assets/meme-3.png" class="cus-item" alt="">
+                            <div class="item">
+                                <img src="assets/meme1.jpg" class="cus-item" alt="">
                             </div>
-                            <div class="item ">
-                                <img src="assets/meme-3.png" class="cus-item" alt="">
+                            <div class="item">
+                                <img src="assets/meme2.jpg" class="cus-item" alt="">
                             </div>
-                            <div class="item ">
-                                <img src="assets/meme-3.png" class="cus-item" alt="">
+                            <div class="item">
+                                <img src="assets/meme4.jpg" class="cus-item" alt="">
                             </div>
-                            <div class="item ">
-                                <img src="assets/meme-3.png" class="cus-item" alt="">
+                            <div class="item">
+                                <img src="assets/meme5.jpg" class="cus-item" alt="">
                             </div>
-                            <div class="item ">
-                                <img src="assets/meme-3.png" class="cus-item" alt="">
+                            <div class="item">
+                                <img src="assets/meme6.jpg" class="cus-item" alt="">
                             </div>
-                            <div class="item ">
-                                <img src="assets/meme-3.png" class="cus-item" alt="">
+                            <div class="item">
+                                <img src="assets/meme7.jpg" class="cus-item" alt="">
                             </div>
-                            <div class="item ">
-                                <img src="assets/meme-3.png" class="cus-item" alt="">
+                            <div class="item">
+                                <img src="assets/meme8.jpg" class="cus-item" alt="">
                             </div>
-                            <div class="item ">
-                                <img src="assets/meme-3.png" class="cus-item" alt="">
+                            <div class="item">
+                                <img src="assets/meme9.jpg" class="cus-item" alt="">
                             </div>
-                            <div class="item ">
-                                <img src="assets/meme-3.png" class="cus-item" alt="">
+                            <div class="item">
+                                <img src="assets/meme10.jpg" class="cus-item" alt="">
                             </div>
-                            <div class="item ">
-                                <img src="assets/meme-3.png" class="cus-item" alt="">
+                            <div class="item">
+                                <img src="assets/meme11.jpg" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme12.jpg" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme13.jpg" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme14.jpg" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme15.jpg" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme16.jpg" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme17.jpg" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme18.jpg" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme19.jpg" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme20.jpg" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme21.png" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme22.jpg" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme23.jpg" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme24.jpg" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme25.png" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme26.png" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme27.png" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme28.png" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme29.png" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme30.png" class="cus-item" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/meme31.png" class="cus-item" alt="">
                             </div>
 
                         </div>
@@ -459,35 +554,35 @@
 
 
                             <div class="social-icon ">
-                                <a href="javascript:void(0)">
+                                <a href="https://www.facebook.com/momtokenglobal" target="_blank">
                                     <img src="assets/facebook.png" alt="">
                                     <p>Facebook</p>
                                 </a>
                             </div>
 
                             <div class="social-icon ">
-                                <a href="javascript:void(0)">
+                                <a href="https://www.instagram.com/momtokenglobal" target="_blank">
                                     <img src="assets/instagram.png" alt="">
                                     <p>Instagram</p>
                                 </a>
                             </div>
 
                             <div class="social-icon ">
-                                <a href="javascript:void(0)">
-
+                                <a href="https://www.twitter.com/momtokenglobal" target="_blank">
                                     <img src="assets/twitter.png" alt="">
                                     <p>Twitter</p>
+
                                 </a>
                             </div>
                             <div class="social-icon ">
-                                <a href="javascript:void(0)">
+                                <a href="https://www.reddit.com/r/momtokenglobal/" target="_blank">
 
                                     <img src="assets/redit.png" alt="">
                                     <p>Reddit</p>
                                 </a>
                             </div>
                             <div class="social-icon ">
-                                <a href="javascript:void(0)">
+                                <a href="https://t.me/momtokenglobal" target="_blank">
 
                                     <img src="assets/telegram.png" alt="">
                                     <p>Telegram</p>
@@ -594,6 +689,60 @@
                 }
             }
         });
+        //$(document).ready(function () {
+
+$(document).ready(function () {
+  // Listen to click event on the submit button
+  $('#form-submit').click(function (e) {
+
+    e.preventDefault();
+    console.log("came here")
+    var $form = $('#mc-embedded-subscribe-form')
+  //if ($form.length > 0) {
+    console.log("came to here to inside form")
+      register($form)
+
+   });
+});
+function submitForm(){
+    console.log("came to here")
+    var $form = $('#mc-embedded-subscribe-form')
+  //if ($form.length > 0) {
+    console.log("came to here to inside form")
+    register($form)
+}
+
+function register($form) {
+    console.log($form.serialize())
+  $('#mc-embedded-subscribe').val('Sending...');
+  $.ajax({
+    type: "POST", //$form.attr('method'),
+    url:  "https://gmail.us20.list-manage.com/subscribe/post",                //$form.attr('action'),
+    data: $form.serialize(),
+    cache: false,
+    dataType: 'html',
+    contentType: 'application/x-www-form-urlencoded; charset=utf-8',
+    error: function (err) { 
+        console.log(err)
+        alert('Could not connect to the registration server. Please try again later.') },
+    success: function (data) {
+      $('#mc-embedded-subscribe').val('subscribe')
+      if (data.result === 'success') {
+          alert("submitted successfully")
+      } else {
+        alert("submitted successfully")
+        console.log(data)
+        $("#exampleModal").modal('hide');
+        
+
+        // Something went wrong, do something to notify the user.
+        // $('#subscribe-result').html('<p>' + data.msg.substring(4) + '</p>')
+      }
+    }
+  })
+};
+       
+
     </script>
 </body>
 
