@@ -80,6 +80,15 @@ body {
     width: 100%;
     padding: 6% 20%;
     border-radius: 50px;
+    background-color: #FF5E5B;
+    color: white;
+    margin-left: -2%;
+}
+
+.cus-btn:hover{
+    background-color: #FFFFFF;
+    color: #FF5E5B;
+
 }
 
 .cus-btn-light {
@@ -178,6 +187,9 @@ input[type=number] {
     font-family: Poppins;
 
 }
+.cus-btn-brdr{
+    border:none
+}
 .cus-new-btn{
     background-color:transparent;
     color:#FFFFFF
@@ -222,9 +234,6 @@ input[type=number] {
     /* box-shadow: none; */
     border-bottom: 1px solid white;
     border-radius: 0%;
-
-    
-
 }
 
 
@@ -589,8 +598,10 @@ input[type=number] {
   }
 
 .owl-carousel{
-    height: 100%;
-    width: 100%;
+    /* width: 100%;
+    height: 100%; */
+    width:100%;
+    height:500px;
 }
 
 

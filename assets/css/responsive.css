@@ -132,6 +132,9 @@
         text-align: left !important;
         margin-top: 4%;
     }
+    .sec-display{
+        display: none;
+    }
     .footer-link {
         margin-left: 0%;
         width: 100%;
@@ -142,5 +145,11 @@
     .cookies-p1 {
         text-align: left;
         margin: 3% 0% 0% 0%;
+    }
+
+    .cus-slid.owl-dots button.owl-dot{
+           width: 9px;
+           height: 9px;
+
     }
 }
