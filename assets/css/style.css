@@ -1,7 +1,5 @@
 html{
     scroll-behavior:smooth;
-
-
 }
 
 
@@ -68,6 +66,7 @@ body {
 .cus-h2 {
     font-size: 45px;
     font-weight: 600;
+    /* animation: slide-left 8s linear infinite; */
 }
 
 .cus-h3 {
@@ -83,8 +82,15 @@ body {
     background-color: #FF5E5B;
     color: white;
     margin-left: -2%;
+    font-weight: bold;
 }
-
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color:#FF5E5B
+}
 .cus-btn:hover{
     background-color: #FFFFFF;
     color: #FF5E5B;
@@ -119,11 +125,15 @@ body {
 }
 
 .mom-color {
-    color: #FF5E5B
+    color: #FF5E5B;
+    font-family: Poppins;
+}
+p{
+    font-family: Poppins;
+    font-weight: bold;
 }
 
-
-/* Main section Open */
+/* Main section close */
 
 /* popup section start */
 .modal-title{
@@ -695,6 +705,5 @@ input[type=number] {
 
 
 /* footer section close */
-
 
 

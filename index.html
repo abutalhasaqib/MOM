@@ -25,7 +25,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="icon" type="image/x-icon" href="assets/logo.svg">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -50,7 +52,7 @@
                             <a class="nav-link" href="#about-MOM">About MOM</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#nft-platform">NFT Platform</a>
+                            <a class="nav-link" href="#nft-platform"> NFT Platform</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://t.me/momtokenglobal" target="_blank">Join Community</a>
@@ -73,20 +75,24 @@
 
                     <div class="main-left-box" data-aos="zoom-in-right">
 
-                        <div class="cus-h2 ">
-                            <h1 class="ml11">
-                                <span class="text-wrapper">
-                                    <span class="line line1"></span>
-                                    <span class="letters">NFT MEME MARKETPLACE</span>
-                                </span>
-                            </h1>
-
+                        <div class="cus-h2">
+                            <div id="h2-strings">
+                                <p> NFT MEME MARKETPLACE.</p>
+                                <p> MEMES ARE THE FUTURE.</p>
+                            </div>
+                            <span id="typed"></span>
                         </div>
                         <div class="cus-h3 mt-3">
-                            MOM utility token enables memers to <span class="mom-color"> build,<br></span> <span
-                                class="mom-color">
-                                own </span> <span class="mom-color"> & Monetize memes.</span>
+                            <div id="h3-strings">
+                                <p>MOM utility token enables memers to <span class="mom-color"> build,<br></span> <span
+                                        class="mom-color"> own </span> <span class="mom-color"> & Monetize memes.</span>
+                                </p>
+                                <p>Empower the <span class="mom-color">creator</span> of the <span
+                                        class="mom-color">future</span>,<br><span class="mom-color"> Memers.</span></p>
+                            </div>
+                            <span id="typed1"></span>
                         </div>
+
                         <div class="cus-h4 mt-5">
                             An NFT platform to monetise for community of memers : create with social proof, trade and
                             sell meme work
@@ -96,7 +102,9 @@
                         <div class="row mt-4">
 
                             <div class="col-lg-6 col-6">
-                                <button class="cus-btn btn mt-3 ">Buy on pancake</button>
+                                <button class="cus-btn btn mt-3">
+                                    <a href="https://pancakeswap.finance/swap#/swap?outputCurrency=0x211fa9e7e390c29b0ab1a9248949a0ab716c4154" target="_blank">Buy
+                                    on pancake</a></button>
                             </div>
                             <div class="col-lg-6 col-6">
                                 <button class="cus-btn-light btn mt-3">Our Whitepaper</button>
@@ -697,7 +705,7 @@
     <!-- footer secion close -->
 
     <!-- Vector Backgroun Images section open -->
-    <section class="sec-display"> 
+    <section class="sec-display">
         <img class="right-vector" src="assets/right-vector.svg" alt="">
         <img class="left-vector" src="assets/left-vector.svg" alt="">
         <img class="left-circle-vector" src="assets/left-circle.svg" alt="">
@@ -708,6 +716,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
@@ -776,11 +786,11 @@
                         $('#subscribe-result').html('<p>Thank you for subscribing. We have sent you a confirmation email.</p>')
                         var form = document.getElementById("mc-embedded-subscribe-form");
                         form.reset();
-                    } else if(data.msg==="valid-email"){
+                    } else if (data.msg === "valid-email") {
                         $('#subscribe-result').css('color', '#ff8282')
                         var form = document.getElementById("valid-email");
                         $('#mce-EMAIL').val('form')
-                    
+
                     } else {
                         // Something went wrong, do something to notify the user.
                         const da = data.msg
@@ -793,6 +803,21 @@
             })
         };
 
+        var typed = new Typed('#typed', {
+            stringsElement: '#h2-strings',
+            backSpeed: 80,
+            typeSpeed: 90,
+            loop: !0,
+            backDelay: 7000
+        });
+        var typed = new Typed('#typed1', {
+            stringsElement: '#h3-strings',
+            backSpeed: 20,
+            typeSpeed: 30,
+            loop: !0,
+            backDelay: 7000
+
+        });
     </script>
 </body>
 
