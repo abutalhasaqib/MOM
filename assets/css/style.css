@@ -11,10 +11,6 @@ body {
     background: transparent linear-gradient(133deg, #930A45 0%, #740E7F 11%, #740E7F 14%, #491553 22%, #1D1D26 45%, #1a1c3b 74%, #141B69 100%) 0% 0% no-repeat padding-box;
     overflow-x: hidden;
 }
-/* text moving on */
-
-
-/* text moving close */
 
 /* Main section Open */
 
@@ -66,7 +62,6 @@ body {
 .cus-h2 {
     font-size: 45px;
     font-weight: 600;
-    /* animation: slide-left 8s linear infinite; */
 }
 
 .cus-h3 {
@@ -84,13 +79,7 @@ body {
     margin-left: -2%;
     font-weight: bold;
 }
-a{
-    color: white;
-}
-a:hover{
-    text-decoration: none;
-    color:#FF5E5B
-}
+
 .cus-btn:hover{
     background-color: #FFFFFF;
     color: #FF5E5B;
@@ -707,3 +696,56 @@ input[type=number] {
 /* footer section close */
 
 
+
+/* CSS->SASS */
+/* memers page :start */
+
+/* memers page main section  */
+
+.container-fluid{
+    width: 100%;
+    padding-right: 0px; 
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.thumbnail{
+    margin: -23% 0%;
+    width: 256px;
+    height: 689px;
+    border-radius: 16px;
+    background-color: black;    
+}
+
+
+.cover{
+    display:block;
+    margin: 0%;
+    width: 100%;
+    padding: 0%;
+}
+
+
+.col-lg-12{
+    padding-right: 0%;
+    padding-left: 0%;
+}
+.col-lg-4{
+    padding-right: 0%;
+}
+
+.circle
+{
+  width:150px;
+  height:150px;
+  border:1px solid black;
+  border-radius:100%;
+  background-color:white;
+  margin: 0% 14% ;
+}
+/* memers page main section close */
+
+
+
+
+/* memers page :close */

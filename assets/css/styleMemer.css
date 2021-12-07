@@ -1,0 +1,98 @@
+/* CSS->SASS */
+/* memers page :start */
+
+/* memers page main section  */
+body {
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    background-size: cover;
+    background: transparent linear-gradient(133deg, #930A45 0%, #740E7F 11%, #740E7F 14%, #491553 22%, #1D1D26 45%, #1a1c3b 74%, #141B69 100%) 0% 0% no-repeat padding-box;
+    overflow-x: hidden;
+}
+.cus-main {
+    height: 100vh;
+    padding: 1% 0%;
+}
+.nav-item {
+    margin: 2% 2%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #F3F4F8;
+    transition: all;
+}
+
+.nav-link:hover {
+    color: #FF5E5B !important;
+}
+
+.cus-logo {
+    width: 90%;
+}
+
+.nav_btn {
+    padding: 12% 32%;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.mom-color {
+    color: #FF5E5B;
+    font-family: Poppins;
+}
+.container-fluid{
+    width: 100%;
+    padding-right: 0px; 
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.thumbnail{
+    margin: -23% 0%;
+    width: 256px;
+    height: 689px;
+    border-radius: 16px;
+    background-color: black;
+    
+}
+
+
+.cover{
+    display:block;
+    margin: 0%;
+    height: 400px;
+    width: 100%;
+    padding: 0%;
+}
+.blur{
+    backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.2);
+}
+.cus-compo{
+    margin: 0% 0%;
+
+}
+
+.col-lg-12{
+    padding-right: 0%;
+    padding-left: 0%;
+
+
+}
+
+.circle
+{
+  width:150px;
+  height:150px;
+  border:1px solid black;
+  border-radius:100%;
+  background-color:white;
+  margin: 0% 14% ;
+}
+/* memers page main section close */
+
+
+
+
+/* memers page :close */
