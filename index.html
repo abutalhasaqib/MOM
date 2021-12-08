@@ -52,7 +52,7 @@
                             <a class="nav-link" href="#about-MOM">About MOM</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0)" data-toggle="tooltip" data-placement="right"
+                            <a class="nav-link" href="#" data-toggle="tooltip"
                                 title="Coming Soon">NFT Platform</a>
                         </li>
                         <li class="nav-item">
@@ -823,9 +823,11 @@
             backDelay: 7000
 
         });
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+       
     </script>
 </body>
 
