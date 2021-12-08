@@ -569,7 +569,7 @@ input[type=number] {
     border: 15px solid #6a6fab47;
     border-radius: 50px;
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     
 }
 
