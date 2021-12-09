@@ -637,6 +637,7 @@ input[type=number] {
 
 .social-icon {
     margin: 1% 4%;
+    display: contents;
 }
 
 .social-icon p {
@@ -647,6 +648,7 @@ input[type=number] {
 
 .social-icon a {
     text-decoration: none;
+    margin: 0% 5%;
 }
 
 .social-icon a:hover {
@@ -696,7 +698,10 @@ input[type=number] {
 .cookies-p1 a {
     color: #FF5E5B;
 }
-
+ 
+a{
+    text-decoration: none;
+}
 
 /* footer section close */
 
