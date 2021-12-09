@@ -95,8 +95,10 @@ body {
     border: 2px solid white;
 }
 
+
 .cus-btn-light:hover {
     background: #741e1e1c;
+    color:white
 }
 
 .cus-h4 {
@@ -703,8 +705,18 @@ input[type=number] {
 /* CSS->SASS */
 /* memers page :start */
 
-/* memers page main section  */
 
+/* memers page main section  */
+.nft-main{
+    height: auto;
+}
+.img-replace{
+    width: 100%;
+   padding: 0%;
+   margin-left: auto;
+   margin-right:auto;
+    height: 400px;
+}
 
 
 /* memers page main section close */
