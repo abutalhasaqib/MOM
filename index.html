@@ -55,8 +55,8 @@
                             <a class="nav-link" href="#about-MOM">About MOM</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="0" data-toggle="tooltip"
-                                data-bs-placement="bottom" title="Coming Soon">NFT Platform</a>
+                            <a class="nav-link" href="#" tabindex="0" data-toggle="tooltip" data-bs-placement="bottom"
+                                title="Coming Soon">NFT Platform</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://t.me/momtokenglobal" target="_blank">Join Community</a>
@@ -145,7 +145,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="modal-h4">
-                        <h4 class="modal-title" id="exampleModalLabel">Iam a Memer</h4>
+                        <h4 class="modal-title" id="exampleModalLabel"></h4>
                     </div>
                     <form
                         action="https://gmail.us20.list-manage.com/subscribe/post-json?u=a6f9a220fc1e1bef4075b4caa&amp;id=da2c986af5&c=?"
@@ -174,7 +174,7 @@
                         <div class="modal-footer">
                             <input type="submit" value="submit" name="submit" id="mc-embedded-subscribe"
                                 class="btn form-btn cus-btn-brdr">
-                            <button type="button" class="btn form-btn cus-new-btn" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn form-btn cus-new-btn" id="close" data-dismiss="modal">Cancel</button>
                         </div>
                         <div id="subscribe-result">
                         </div>
@@ -197,7 +197,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="modal-h4">
-                        <h4 class="modal-title" id="exampleModalLabel">Contact s</h4>
+                        <h4 class="modal-title" id="exampleModalLabel"></h4>
                     </div>
                     <form
                         action="https://gmail.us20.list-manage.com/subscribe/post-json?u=a6f9a220fc1e1bef4075b4caa&amp;id=da2c986af5&c=?"
@@ -226,7 +226,8 @@
                         <div class="modal-footer">
                             <input type="submit" value="submit" name="submit" id="mc-embedded-subscribe"
                                 class="btn form-btn cus-btn-brdr">
-                            <button type="button" class="btn form-btn cus-new-btn" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn form-btn cus-new-btn" id="close"
+                                data-dismiss="modal">Cancel</button>
                         </div>
                         <div id="subscribe-result">
                         </div>
@@ -678,7 +679,7 @@
     <!-- footer secion open -->
 
     <section class="cus-footer">
-        <div class="container">
+        <div class="container fo-menu">
             <img src="assets/logo.svg" class="footer-logo" alt="">
             <div class="row mb-3">
                 <div class="col-lg-6">
@@ -688,8 +689,8 @@
                 </div>
                 <div class="col-lg-6 text-right">
                     <div class="footer-menu text-right">
-                        <a href="#about-us" class="footer-link">About MOM</a>
-                        <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        <a href="#about-MOM" class="footer-link">About MOM</a>
+                        <a href="javascript:void(0)" data-toggle="tooltip" data-bs-placement="bottom"
                             title="Coming Soon" class="footer-link">NFT Platform</a>
                         <a href="https://t.me/momtokenglobal" class="footer-link">Join Community</a>
                         <a data-toggle="modal" data-target="#exampleModal" href="#exampleModal" class="footer-link">Iam
@@ -776,9 +777,17 @@
                 $('form input[type="submit"]').bind('click', function (event) {
                     if (event) event.preventDefault()
                     register($form)
+
                 })
             }
         })
+        $(document).ready(function () {
+            $('#close').on('click', function () {
+                $('#mc-embedded-subscribe-form').trigger("reset");
+                $("#subscribe-result").trigger("reset")
+               
+            })
+        });
 
         function register($form) {
             $('#mc-embedded-subscribe').val('Sending');

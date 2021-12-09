@@ -37,7 +37,7 @@ body {
 }
 
 .nav_btn {
-    padding: 12% 32%;
+    padding: 12% 20%;
     border-radius: 50px;
     font-weight: 500;
 }
@@ -683,6 +683,9 @@ input[type=number] {
 .footer-link:hover {
     text-decoration: none;
     color: #FF5E5B;
+}
+.fo-menu{
+    max-width: 87%;
 }
 
 .cookies-row {
