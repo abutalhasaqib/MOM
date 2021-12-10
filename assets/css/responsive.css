@@ -153,3 +153,30 @@
 
     }
 }
+@media only screen and (max-width: 800px) {
+
+    .modal-footer>* {
+        margin: -2.75rem;
+    }
+    .modal-footer > :not(:first-child) {
+        margin-left: 15px;
+    }
+    .form-btn {
+        /* width: 1px; */
+        /* background-color: #FF5E5B;
+        border: 1px solid white; */
+        padding: 5px 28px;
+        font-size: 15px;
+        /* color: #FFFFFF; */
+        margin-bottom: 23px;
+        margin-top: 32px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-family: Poppins;
+    }
+    .form-btn:hover{
+       background-color: transparent;
+       color: white
+       ;
+    }
+}
